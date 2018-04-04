@@ -7,13 +7,13 @@ It is capable of uploading a file accessible at a URL or by setting its contents
 **EXAMPLES**
 
 __uploading a file from URL__
-
+```
 {
     "accessToken": "DROPBOX_TOKEN",       // dropbox access token
     "filePath": "DROPBOX_FILE_PATH",      // path on dropbox to save the file to
     "fileUrl": "FILE_TO_UPLOAD"           // url to get the file from
 }
-
+```
 __uploading a file as text__
 
 {
