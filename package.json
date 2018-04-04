@@ -1,0 +1,17 @@
+{ 
+  "name": "dropbox-upload",
+  "version": "1.0.0",
+  "description": "Apify act for uploading files to Dropbox",
+  "main": "main.js",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cermak-petr/act-dropbox-upload"
+  },
+  "dependencies": { 
+    "apify": "^0.5.17",
+    "dropbox": "^4.0.1",
+    "request-promise": "^4.2.2",
+    "isomorphic-fetch": "^2.2.1"
+  }
+}
