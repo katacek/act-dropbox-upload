@@ -1,6 +1,6 @@
 # act-dropbox-upload
 
-Apify act for uploading files to Dropbox.
+Apify act for uploading files to Dropbox.  
 It is capable of uploading a file accessible at a URL or by setting its contents as text or base64.
 
 
