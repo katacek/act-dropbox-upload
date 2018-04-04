@@ -6,7 +6,7 @@ It is capable of uploading a file accessible at a URL or by setting its contents
 
 **INPUT EXAMPLES**
 
-__uploading a file from URL__
+__Uploading a file from URL__
 ```
 {
     "accessToken": "DROPBOX_TOKEN",       // dropbox access token
@@ -14,7 +14,7 @@ __uploading a file from URL__
     "fileUrl": "FILE_TO_UPLOAD"           // url to get the file from
 }
 ```
-__uploading a file as text__
+__Uploading a file as text__
 ```
 {
     "accessToken": "DROPBOX_TOKEN",       // dropbox access token
@@ -22,7 +22,7 @@ __uploading a file as text__
     "fileContents": "FILE_CONTENTS"       // contents of the file as text
 }
 ```
-__uploading a file as base64__
+__Uploading a file as base64__
 ```
 {
     "accessToken": "DROPBOX_TOKEN",       // dropbox access token
