@@ -18,5 +18,5 @@ Apify.main(async () => {
     })) : (input.fileContents || Buffer.from(input.fileBase64, 'base64'));
     
     const dbx = new Dropbox({ accessToken: input.accessToken });
-    await dbx.filesUpload({path: input.filePath, contents: fileData});
+    await dbx.filesUpload({path: input.filePath, contents: fileData, mode: 'overwrite'});
 });
