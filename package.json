@@ -1,4 +1,4 @@
-{ 
+{
   "name": "dropbox-upload",
   "version": "1.0.0",
   "description": "Apify act for uploading files to Dropbox",
@@ -8,10 +8,14 @@
     "type": "git",
     "url": "https://github.com/cermak-petr/act-dropbox-upload"
   },
-  "dependencies": { 
-    "apify": "^0.5.17",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "apify": "^0.14.5",
     "dropbox": "^4.0.1",
-    "request-promise": "^4.2.2",
-    "isomorphic-fetch": "^2.2.1"
+    "isomorphic-fetch": "^2.2.1",
+    "request-promise": "^4.2.2"
   }
 }
