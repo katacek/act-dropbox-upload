@@ -1,0 +1,44 @@
+{
+    "title": "Dropbox Upload",
+    "description": "Automatically uploads URLs to Dropbox. Use an API to upload information to Dropbox from URLs, text content or base64.",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "accessToken": {
+            "title": "Access token",
+            "type": "string",
+            "description": "Dropbox access token",
+            "prefill": "DROPBOX_TOKEN",
+            "editor": "textfield"
+        },
+        "filePath": {
+            "title": "File path",
+            "type": "string",
+            "description": "Path on dropbox to save the file to",
+            "prefill": "DROPBOX_FILE_PATH",
+            "editor": "textfield"
+        },
+        "fileUrl": {
+            "title": "File url",
+            "type": "string",
+            "description": "Url to get the file from",
+            "example": "FILE_TO_UPLOAD",
+            "editor": "textfield"
+        },
+        "fileContents": {
+            "title": "File contents",
+            "type": "string",
+            "description": "Contents of the file as text",
+            "example": "FILE_CONTENTS",
+            "editor": "textfield"
+        },
+        "fileBase64": {
+            "title": "File base64",
+            "type": "string",
+            "description": "Contents of the file as base64",
+            "example": "FILE_CONTENTS",
+            "editor": "textfield"
+        }
+    },
+    "required": ["accessToken", "filePath"]
+}
